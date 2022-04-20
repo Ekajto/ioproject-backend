@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     HASHED_PASSWORD = "$2b$12$aeT7eHQ4DssYDyRtFiXgounhOYm9GvamKJgVOo3r8FuxXNFA17INy"  # adminnimda
     DATABASE_URL: Optional[
         str
-    ] = "postgres://hzzuljzh:6BbNEps8QRW2aWQx1vkDtSnhDj62Usam@manny.db.elephantsql.com/hzzuljzh"
+    ] = "postgres://ctfoodxx:ScEFJjefM7bodZ_s4uV_TqZ2K-1JtJg1@tai.db.elephantsql.com/ctfoodxx"
 
     @validator("DATABASE_URL")
     def url_adjustment(cls, DATABASE_URL):
