@@ -5,7 +5,7 @@ from sqlmodel import Field, SQLModel
 
 class HairProductBase(SQLModel):
     product_name: str
-    product_category: str
+    product_brand: str
     product_type: str
     straight: Optional[bool]
     wavy: Optional[bool]
@@ -14,6 +14,7 @@ class HairProductBase(SQLModel):
     fine: Optional[bool]
     medium: Optional[bool]
     thick: Optional[bool]
+    image_link: Optional[str]
 
 
 class HairProduct(HairProductBase, table=True):
