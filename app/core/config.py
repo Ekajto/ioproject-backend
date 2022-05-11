@@ -1,7 +1,7 @@
 import secrets
-from typing import Optional
+from typing import List, Optional
 
-from pydantic import BaseSettings, validator
+from pydantic import AnyHttpUrl, BaseSettings, validator
 
 
 class Settings(BaseSettings):
@@ -23,7 +23,14 @@ class Settings(BaseSettings):
         else:
             return DATABASE_URL
 
-    # BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = ["http://localhost:8080"]
+    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = [
+        "http://localhost:8080",
+        "https://localhost:8080",
+        "http://localhost",
+        "https://localhost",
+        "http://localhost:8081",
+        "https://localhost:8081",
+    ]
 
 
 settings = Settings()
