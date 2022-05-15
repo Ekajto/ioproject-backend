@@ -1,13 +1,17 @@
-# Skin & hair routine app
+# Skair App
 
-## Projekt przygotowywany na przedmiot Inżynieria Oprogramowania, WMII UŁ sem. letni 2022
+## Skin & hair routine application
 
-## Część backendowa
+### Project created for Software Engieenering classes.
 
-### Stack
+### Backend part
+
+#### Stack
 
 - [Python](https://www.python.org/)
 - [PostreSQL](https://www.postgresql.org/)
 - [FastAPI](https://github.com/tiangolo/fastapi)
 - [SQLModel](https://github.com/tiangolo/sqlmodel)
 - [Alembic](https://github.com/sqlalchemy/alembic)
+
+Backend is deployed on heroku platfrom and can be found [here](ioproject-backend.herokuapp.com/).
