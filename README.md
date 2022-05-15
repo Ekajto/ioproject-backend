@@ -15,3 +15,5 @@
 - [Alembic](https://github.com/sqlalchemy/alembic)
 
 Backend is deployed on heroku platfrom and can be found [here](ioproject-backend.herokuapp.com/).
+
+Frontend part can be found [here](https://github.com/Bustuk/ioproject)
